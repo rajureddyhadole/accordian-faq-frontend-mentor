@@ -103,3 +103,21 @@ body {
     display: block;
 }
 
+@media (max-width: 400px) {
+    .accordion-container {
+        width: 90%;
+        padding: 1rem;
+    }
+
+    .accordion-container h1 {
+        font-size: 2rem;
+    }
+
+    .accordion h2 {
+        font-size: 1.1rem;
+    }
+
+    .accordion p {
+        font-size: 0.9rem;
+    }
+}
